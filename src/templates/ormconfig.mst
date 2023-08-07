@@ -6,7 +6,7 @@
     "port": {{port}},
     "username": "{{user}}",
     "password": "{{password}}",
-    "database": "{{databaseName}}",{{#schemaName}}
+    "database": "{{databaseNames}}",{{#schemaName}}
     "schema": "{{.}}",{{/schemaName}}{{#instanceName}}
     "extra": { "instanceName": "{{.}}" },{{/instanceName}}
     "synchronize": false,
