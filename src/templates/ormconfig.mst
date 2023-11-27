@@ -6,8 +6,8 @@
     "port": {{port}},
     "username": "{{user}}",
     "password": "{{password}}",
-    "database": "{{databaseName}}",{{#schemaName}}
-    "schema": "{{.}}",{{/schemaName}}{{#instanceName}}
+    "database": "{{databaseNames}}",{{#schemaNames}}
+    "schema": "{{.}}",{{/schemaNames}}{{#instanceName}}
     "extra": { "instanceName": "{{.}}" },{{/instanceName}}
     "synchronize": false,
     "entities": [
